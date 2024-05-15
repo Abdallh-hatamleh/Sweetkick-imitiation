@@ -1,0 +1,32 @@
+.notification {background-color: #021d49; color: white; display: flex; justify-content: center;align-items: center; padding: 0px;}
+
+.notification p {margin: 2px; font-size: 10px;}
+
+.header {display: flex; justify-content: space-between; padding: 5px;}
+
+.header div{font-size: 38px; font-style: bold;}
+
+button {color: white;background-color: #ff4700; border-radius: 5%; border: 1px black solid; margin: 1px; filter: drop-shadow(1.6px 1.6px rgba(0, 0, 0, 0.623));
+    padding: 1% 3%;}
+
+.main{background: linear-gradient(#b9b9b9, #ffffff); display: flex; justify-content: space-around;}
+
+.main img {transform: rotate(180deg);}
+
+* { font-family: "Comic Neue", cursive; color: #021d49;}
+
+.footer {background-color: #021d49; display: flex; color: white; justify-content: space-around; align-items: center;}
+
+.footer .ico { filter: invert(100%) sepia(1%) saturate(558%) hue-rotate(143deg) brightness(118%) contrast(100%);}
+
+.redico {filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(49deg) brightness(108%) contrast(103%);}
+
+.footer img {height: 5%; width: 5%;}
+
+.footer *{color: white;}
+
+.checked {color: orange;}
+
+.columm {display: flex; flex-direction: column; align-items: center;}
+ 
+.columm * {text-align: center;}
